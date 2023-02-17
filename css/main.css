@@ -12,7 +12,7 @@
 
 html {
     color: #222;
-    font-size: 1em;
+    font-size: 16px;
     line-height: 1.4;
 }
 
@@ -25,12 +25,12 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
+    background: #734a7e;
     text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
+    background: #a86aaa;
     text-shadow: none;
 }
 
@@ -110,7 +110,7 @@ body {
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   justify-content: space-between;
   }
@@ -119,17 +119,21 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.em;
+  background-color: #445d83;
   height: 300px;
-  width: 30%;
+  width: 33.3333%;
+  padding: 1.5em;
   display: flex;
   justify-content:center;
   align-content: center;
-  align-items: center;
+  
 }
 
-
+.div-2 {
+    border-left: 3px solid #6b1313;
+    border-right: 3px solid #6b1313;
+}
 
 
 /* ==========================================================================
